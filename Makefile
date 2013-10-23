@@ -8,3 +8,5 @@ outclean:
 	rm -f *.png
 clean:
 	rm -f callouts
+destroy: clean
+	rm -f .gitignore LICENSE README callouts.c Makefile
